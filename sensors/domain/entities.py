@@ -10,6 +10,7 @@ class SensorType(Enum):
     SMART_LIGHT = "smart_light"
     AIR_CONDITIONER = "air_conditioner"
     COFFEE_MAKER = "coffee_maker"
+    SMART_LOCK = "smart_lock"
 
 
 class Sensor:

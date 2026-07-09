@@ -26,7 +26,7 @@ def get_sensors_by_user(user_id):
         name: sensor_type
         type: string
         description: Filter by sensor type
-        enum: [led_tv, smart_light, air_conditioner, coffee_maker]
+        enum: [led_tv, smart_light, air_conditioner, coffee_maker, smart_lock]
     responses:
       200:
         description: List of sensors

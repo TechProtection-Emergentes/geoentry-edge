@@ -33,8 +33,9 @@ class SensorService:
         type_names = {
             SensorType.LED_TV: "Smart TV",
             SensorType.SMART_LIGHT: "Luz Inteligente", 
-            SensorType.AIR_CONDITIONER: "Aire Acondicionado",
-            SensorType.COFFEE_MAKER: "Cafetera"
+            SensorType.AIR_CONDITIONER: "Aire Acondicionado", 
+            SensorType.COFFEE_MAKER: "Cafetera Inteligente",
+            SensorType.SMART_LOCK: "Cerradura Inteligente"
         }
         return type_names.get(sensor_type, sensor_type.value)
     
